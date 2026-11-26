@@ -2,6 +2,7 @@
 import sys, matplotlib.pyplot as plt, networkx as nx
 from matplotlib.patches import FancyArrowPatch
 
+# soy prooooo
 states = {"q0","q1","q2","q3","q4"}
 alphabet = {"a","b"}
 delta = {("q0","a"):"q1", 
@@ -16,6 +17,7 @@ delta = {("q0","a"):"q1",
 q0, F = "q0", {"q4"}
 
 # === Simulación ===
+#qwertyui
 def run(s):
     q, steps = q0, [q0]
     for i,ch in enumerate(s):
